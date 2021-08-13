@@ -1,0 +1,155 @@
+
+/* ------ Universal Style ------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    background-color: #f8f8ff;
+}
+
+
+
+/* ------ Navigation Bar ------- */
+
+
+li {
+    list-style: none;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+#cart {
+    width: 120px;
+    height: 45px;
+    background-color: #FF4500;
+    border-radius: 23px;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 50px;
+}
+
+#cart > a {
+    color: #fff;
+}
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    border-bottom: 2px solid #FF4500;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 50%;
+}
+
+
+/* ------Containers------- */
+
+
+.container {
+    display: flex;
+}
+
+.sub_container2 {
+    padding: 80px 0 0 70px;
+}
+
+
+/* ------ Headings ------- */
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.5rem;
+    line-height: 1.4;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+
+nav {
+    margin-left: 40px;
+    width: 100px;
+}
+
+/* ------- Text ------- */
+
+.text {
+    display: flex;
+}
+
+.text > h1 {
+    width: 600px;
+}
+
+.text > p {
+    color: #888;
+    position: relative;
+    margin: 0 0 50px 50px;
+    width: 200px;
+    height: 100%;
+}
+
+.text > p:before {
+    border-bottom: 3px solid #FF4500;
+    position: absolute;
+    content: "";
+    width: 30%;
+    bottom: -25px;
+}
+
+
+
+
+/* ------ Boxes ------- */
+
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.box {
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.box > span {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+
+/* ------ Images ------- */
+
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
